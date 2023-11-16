@@ -10,7 +10,7 @@ void setup() {
 void loop() {
   analogWrite(LED, ledVal);
 
-  ledVal = (ledVal + 1) % 255;
+  ledVal = (ledVal + 1) % 256;
 
   delay(16);
 }
